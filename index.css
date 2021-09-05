@@ -30,6 +30,12 @@ body{
     padding:3px;
 }
 
+.nav-link:hover{
+    background-color: turquoise;
+    border-color: blue;
+
+}
+
 
 
 a{
@@ -46,11 +52,11 @@ code{
 #main-doc {
     /* width: 100vw; */
     height: 100vh;
-    text-align: center;
+    text-align: start;
 }
 
-#DOCTYPE{
-    text-align: start;
+h2{
+    text-align: center;
 }
 
 .main-section{
@@ -70,14 +76,14 @@ code{
     }
 
     #main-doc{
-        margin-left: 10vw;
+        margin-left: 18vw;
         width: 100%;
         text-align: initial;
     }
     
     #navbar{
         height: 100vh;
-        width: 10vw;
+        width: 18vw;
         background-color: grey;
         position: fixed;
     }
