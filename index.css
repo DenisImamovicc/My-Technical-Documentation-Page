@@ -7,21 +7,50 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: gray;
 }
 
 #navbar{
-    height: 10vh;
-    width: 100vw;
-    background-color: grey;
+    /* width: 100vw; */
+    background-color: inherit;
+    position: relative;
+    text-align: center;
+    display: ;
+}
+
+#navbar-id{
+    display: ;
+}
+
+.nav-link{
+    list-style: none;
+    margin: 1rem;
+    border-bottom: 2px solid white;
+
+    padding:3px;
+}
+
+.nav-link:hover{
+    background-color: turquoise;
+}
+
+a{
+    text-decoration-line: none;
+
 }
 
 #main-doc {
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
+    text-align: center;
+    
 }
 
 .main-section{
+    height: 100vh;
+    background-color: rgb(196, 245, 196);
     
+    margin: 1rem;
 }
 
 
@@ -30,10 +59,22 @@ body{
         display: flex;
         flex-direction: row;
     }
+
+    #main-doc{
+        margin-left: 10vw;
+        width: 100%;
+        text-align: initial;
+    }
     
     #navbar{
         height: 100vh;
         width: 10vw;
         background-color: grey;
+        position: fixed;
+    }
+
+    #navbar-id{
+        display: flex;
+        flex-direction: column;
     }
 }
