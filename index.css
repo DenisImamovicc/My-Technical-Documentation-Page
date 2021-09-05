@@ -7,15 +7,16 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: rgb(185, 183, 183);
 }
 
 #navbar{
     /* width: 100vw; */
-    background-color: gray;
+    background-color: rgb(185, 183, 183);
     position: relative;
     text-align: center;
     display: ;
+    border-bottom: 1px solid black
 }
 
 #navbar-id{
@@ -84,8 +85,9 @@ h2{
     #navbar{
         height: 100vh;
         width: 18vw;
-        background-color: grey;
+        background-color: rgb(185, 183, 183);
         position: fixed;
+        border-right: 1px solid black;
     }
 
     .nav-link:hover{
